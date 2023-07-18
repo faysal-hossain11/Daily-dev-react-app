@@ -15,16 +15,12 @@ import Playstore from './../assets/images/playstore.png'
 
 
 
-
-
-
-
 function Apps() {
   return (
     <div>
       {/* START THE DAILY DEV APP SECTION */}
       <div className='text-center w-full md:w-[992px] lg:w-[1200px] mx-auto '>
-        <div className='w-full md:w-[50%] mx-auto mt-24'>
+        <div className='w-full md:w-[50%] mx-auto mt-[200px]'>
           <h2 className='text-[30px] md:text-[48px] leading-[64px] text-white font-semibold mb-6 '>{AppText.appdaily} <span className='text-[#E669FB] '>{AppText.appss}</span> </h2>
           <p className='text-[22px] text-white leading-[32px] '>{AppText.appheroP}</p>
         </div>
@@ -47,7 +43,7 @@ function Apps() {
             <h2 className='text-[28px] leading-[34px] mt-4 text-white font-semibold mb-6 '>{AppText.appBEX} <span className='text-[20px] bg-[#ed4af8] px-3 rounded-full shadow-md shadow-[#E96AF1] '>{AppText.appR} </span></h2>
             <p className='text-[16px] leading-[24px] text-[#A8B3CF] pr-5'>{AppText.appBp}</p>
             <div className='flex gap-5 mt-5 md:justify-start justify-center'>
-              <div className='bg-[#fdf6f6] w-[25%] py-2 rounded-xl '>
+              <div className='bg-[#fdf6f6] w-[25%] py-2 rounded-xl hover:shadow-lg hover:shadow-[#e669fb] transition-all duration-200 hover:underline '>
                 <a href="https://chrome.google.com/webstore/detail/dailydev-the-homepage-dev/jlmpjdjjbgclbocgajdjefcidcncaied">
                   <div className='flex items-center gap-3 justify-center'>
                     <img className='w-[20%]' src={Chrome} alt="" />
@@ -55,7 +51,7 @@ function Apps() {
                   </div>
                 </a>
               </div>
-              <div className='bg-[#fdf6f6] w-[25%] py-2 rounded-xl '>
+              <div className='bg-[#fdf6f6] w-[25%] py-2 rounded-xl hover:shadow-lg hover:shadow-[#e669fb] transition-all duration-200 hover:underline '>
                 <a href="https://addons.mozilla.org/en-US/firefox/addon/daily/">
                   <div className='flex items-center gap-3 justify-center'>
                     <img className='w-[20%]' src={FireFox} alt="" />
@@ -63,7 +59,7 @@ function Apps() {
                   </div>
                 </a>
               </div>
-              <div className='bg-[#fdf6f6] w-[25%] py-2 rounded-xl '>
+              <div className='bg-[#fdf6f6] w-[25%] py-2 rounded-xl hover:shadow-lg hover:shadow-[#e669fb] transition-all duration-200 hover:underline '>
                 <a href="https://microsoftedge.microsoft.com/addons/detail/dailydev-news-for-busy/cbdhgldgiancdheindpekpcbkccpjaeb?hl=en-GB">
                   <div className='flex items-center gap-3 justify-center'>
                     <img className='w-[20%]' src={Edge} alt="" />
@@ -85,7 +81,7 @@ function Apps() {
             <h2 className='text-[28px] leading-[32px] mb-4'>{AppText.webapp}</h2>
             <p className='text-[#A8B3CF]'>{AppText.drag}</p>
             <div className='mt-8 flex gap-4 mb-[50px] md:justify-start justify-center'>
-              <div className='bg-[#fdf6f6] w-[30%] md:w-[27%] flex justify-center rounded-lg hover:underline'>
+              <div className='hover:shadow-lg hover:shadow-[#e669fb] transition-all duration-200 bg-[#fdf6f6] w-[30%] md:w-[27%] flex justify-center rounded-lg hover:underline'>
                 <a href="https://app.daily.dev">
                   <div className='flex gap-3 items-center py-4 '>
                     <img className='w-[30px]' src={Website} alt="" />
@@ -93,8 +89,8 @@ function Apps() {
                   </div>
                 </a>
               </div>
-              <div className='bg-[#fdf6f6] w-[40%] items-center flex justify-center rounded-lg hover:underline'>
-                <a href="https://app.daily.dev">
+              <div className='hover:shadow-lg hover:shadow-[#e669fb] transition-all duration-200 bg-[#fdf6f6] w-[40%] items-center flex justify-center rounded-lg hover:underline'>
+                <a className='' href="https://app.daily.dev">
                   <div className='flex gap-3 items-center py-[6px] '>
                     <img className='w-[30px]' src={Drag} alt="" />
                     <div className=''>
@@ -128,7 +124,7 @@ function Apps() {
       {/* START IPHONE & IPAD SECTON */}
       <div className='text-center w-full md:w-[992px] lg:w-[1200px] mx-auto '>
         <div className='pt-[100px]  pb-[50px] md:flex md:justify-between w-[80%] mx-auto border-b-[1px] border-[#444444]'>
-          <div className=' w-full md:w-[40%] md:mb-0 mb-10'>
+          <div className=' w-full md:w-[40%] md:mb-0 mb-10 ]'>
             <ReactImageMagnify {...{
               smallImage: {
                 alt: 'Wristwatch by Ted Baker London',
@@ -146,7 +142,7 @@ function Apps() {
             <h2 className='text-[28px] leading-[34px] mt-1 text-white font-semibold mb-6 '>{AppText.iphone} </h2>
             <p className='text-[16px] leading-[24px] text-[#A8B3CF] pr-5'>{AppText.JustLike}</p>
             <div className='flex gap-5 mt-5 md:justify-start justify-center'>
-              <div className='bg-[#fdf6f6] w-[65%] py-3 mt-6 rounded-xl px-3 hover:underline'>
+              <div className='bg-[#fdf6f6] w-[65%] py-3 mt-6 rounded-xl px-3 hover:underline hover:shadow-lg hover:shadow-[#e669fb] transition-all duration-200'>
                 <a href="https://chrome.google.com/webstore/detail/dailydev-the-homepage-dev/jlmpjdjjbgclbocgajdjefcidcncaied">
                   <div className='flex items-center gap-3 justify-center'>
                     <img className='w-[15%]' src={Ios} alt="" />
@@ -168,7 +164,7 @@ function Apps() {
             <h2 className='text-[28px] leading-[32px] mb-4'>{AppText.Google}</h2>
             <p className='text-[#A8B3CF]'>{AppText.GDown}</p>
             <div className='mt-8 flex gap-4 mb-[50px] md:justify-normal justify-center'>
-              <div className='bg-[#fdf6f6] w-[35%] md:w-[30%] flex justify-center rounded-lg hover:underline'>
+              <div className='bg-[#fdf6f6] w-[35%] md:w-[40%] flex justify-center rounded-lg hover:underline hover:shadow-lg hover:shadow-[#e669fb] transition-all duration-200'>
                 <a href="https://app.daily.dev">
                   <div className='flex gap-2 md:gap-3 items-center py-3 '>
                     <img className='w-[30px]' src={Playstore} alt="" />

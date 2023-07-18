@@ -13,18 +13,17 @@ import Aws from './../assets/images/aws.svg'
 import Meta from './../assets/images/meta.svg'
 
 
-
 function Home() {
     return (
         <div>
             <div className=' w-full md:w-[992px] lg:w-[1200px] mx-auto text-center'>
-                <div className='w-[90%] md:w-[70%] mx-auto mt-[100px] '>
-                    <h2 className='text-[30px] md:text-[48px] leading-[64px] tracking-normal text-white '>{AppText.heroWhere}</h2>
-                    <h1 className='text-[50px] md:text-[72px] leading-[96px] font-bold text-[#E669FB] from-current-[#f9f9f9] tracking-normal '>{AppText.grow}</h1>
+                <div className='w-[90%] md:w-[70%] mx-auto mt-[200px] '>
+                    <h2 className='  text-[30px] md:text-[48px] leading-[64px] tracking-normal text-white '>{AppText.heroWhere}</h2>
+                    <h1 className='text-[50px] md:text-[72px] leading-[96px] font-bold text-[#e669fb] from-current-[#f9f9f9] tracking-normal '>{AppText.grow}</h1>
                     <p className='text-[20px] leading-8 tracking-normal mt-6 '>{AppText.heroP} </p>
                 </div>
-                <div className='w-[44%] md:w-[30%] mt-10 rounded-md mx-auto items-center flex flex-col py-1 gap-10   '  >
-                    <a className='flex items-center hover:shadow-lg hover:shadow-[#ed88ffa8] px-4 bg-white rounded-lg transition-all duration-200 ' href="https://chrome.google.com/webstore/detail/dailydev-the-homepage-dev/jlmpjdjjbgclbocgajdjefcidcncaied">
+                <div className='w-[50%] md:w-[30%] mt-10 rounded-md mx-auto hover:underline items-center flex flex-col py-2  gap-10   '  >
+                    <a className='flex items-center hover:shadow-lg hover:shadow-[#ed88ffa8] px-4 bg-white rounded-lg transition-all duration-200 py-2 md:py-1  ' href="https://chrome.google.com/webstore/detail/dailydev-the-homepage-dev/jlmpjdjjbgclbocgajdjefcidcncaied">
                         <img className='w-[60px] md:w-[100px] mr-2' src={Browser} alt="" />
                         <p className='ml-2 text-black font-bold text-[15px] md:text-[18px] '>Add to browser <span className='text-[#3a3a3a]'>it's free</span></p>
                     </a>
