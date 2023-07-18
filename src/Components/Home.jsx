@@ -40,7 +40,7 @@ function Home() {
                     <img className=' absolute top-[-75px] shadow-lg left-[35%] md:left-[40%] translate-x-0 ' src={Play} alt="" />
                 </div>
             </div>
-            <div className='shadow-[0_-85px_150px_-35px_rgba(0,0,0,0.3)] shadow-[#E96AF1] py-[100px] z-[999] w-full border-b-[2px] border-[#E669FB]'>
+            <div className='shadow-[0_-85px_150px_-35px_rgba(0,0,0,0.3)] shadow-[#E96AF1] py-[100px] z-[999] w-full'>
                 <div className=''>
                     <div className=' w-full md:w-[992px] lg:w-[1200px] mx-auto md:flex md:justify-between items-center'>
                         <div className='w-full md:w-[50%] '>

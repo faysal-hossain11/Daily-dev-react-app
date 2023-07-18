@@ -6,7 +6,7 @@ import { FaGithub, FaInstagram, FaTiktok } from "react-icons/fa6";
 
 function Footer() {
     return (
-        <div className='pt-[100px] pb-[30px]'>
+        <div className='pt-[100px] pb-[30px] border-t-[2px] border-[#E669FB]'>
             <div className=' w-full md:w-[992px] lg:w-[1200px] mx-auto '>
                 <div className='md:flex md:justify-between lg:justify-between'>
                     <div className='w-full text-center md:text-left px-5 md:px-0 md:w-[35%]'>
